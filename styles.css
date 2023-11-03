@@ -69,10 +69,22 @@ header nav ul li a {
     width: 100%;
 }
 
+.seccion-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    display: flex;
+    line-height: 80px;
+    justify-content: center;
+}
+
 .trabajos {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    padding-top: 5em;
 }
 
 #footer {
@@ -89,6 +101,7 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .form-header {
